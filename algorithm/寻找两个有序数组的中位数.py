@@ -4,6 +4,7 @@ class Solution:
         n2 = len(nums2)
         if n1 > n2:
             return self.findMedianSortedArrays(nums2, nums1)
+
         k = (n1 + n2 + 1) // 2
         left = 0
         right = n1
