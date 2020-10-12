@@ -109,11 +109,11 @@ class Solution3():
         return len(self.res_list)
 
 if __name__ == '__main__':
-    # n = int(input())
-    # k = int(input())
-    # s = Solution1(k)
-    # s.zhengshufenjie(n)
-    # print(s.res_num)
+    n = int(input())
+    k = int(input())
+    s = Solution1(k)
+    s.zhengshufenjie(n)
+    print(s.res_num)
 
     # str = input()
     # n = int(input())
@@ -124,14 +124,14 @@ if __name__ == '__main__':
     # s = Solution2()
     # print(s.tihuan(str, dic))
 
-    mok = input()
-    num = int(input())
-    dic = {}
-    for _ in range(num):
-        tmp = input().split('->')
-        if tmp[0] not in dic:
-            dic[tmp[0]]= tmp[1]
-        else:
-            dic[tmp[0]] = [dic[tmp[0]],tmp[1]]
-    s = Solution3(mok)
-    print(s.search_yilia(mok, dic))
+    # mok = input()
+    # num = int(input())
+    # dic = {}
+    # for _ in range(num):
+    #     tmp = input().split('->')
+    #     if tmp[0] not in dic:
+    #         dic[tmp[0]]= tmp[1]
+    #     else:
+    #         dic[tmp[0]] = [dic[tmp[0]],tmp[1]]
+    # s = Solution3(mok)
+    # print(s.search_yilia(mok, dic))
