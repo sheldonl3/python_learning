@@ -8,6 +8,7 @@ class B(A):
     #    print("B")
         #pass
 
+
 class C(A):
     def __init__(self):
         print("C")
